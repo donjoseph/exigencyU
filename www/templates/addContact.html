@@ -1,0 +1,34 @@
+<ion-view style="" class=" " id="page6" title="Add New Contact">
+    <ion-content class="has-header" padding="true" style="background: url(img/em.jpg) center; background-size: cover;">
+        <form name="addContactForm" class="list " id="signup-form2">
+            <ion-list class=" " id="signup-list3">
+
+			   <div class="app-icon"></div>
+
+              <label class="item item-input item-floating-label">
+                <span style="color: white;"  class="input-label">Name</span>
+                <input style="color: white;" ng-model="user.name" type="text" placeholder="Name" required="true">
+              </label>
+
+              <label class="item item-input item-floating-label">
+                <span style="color: white;" class="input-label">Phone</span>
+                <input style="color: white;" ng-model="user.phone" type="tel" placeholder="Phone" required="true">
+              </label>
+
+            </ion-list>
+            <div style="width: 279px; height: 35px;" class="spacer"></div>
+            <button ng-click ="addtoDB(addContactForm,user)" class=" button button-assertive  button-block" id="signup-button3" >Add Contact</button>
+            <button ng-click="goHome()"class=" button button-assertive  button-block" id="signup-button4">Close</button>
+
+
+        </form>
+        <ion-list>
+          <table  border="1">
+            <tr>
+                <td>hi</td>
+                <td>hi</td>
+            </tr>
+        </table>
+        </ion-list>
+    </ion-content>
+</ion-view>
