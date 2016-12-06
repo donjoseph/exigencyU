@@ -537,4 +537,48 @@ angular.module('app', ['ionic','app.routes', 'app.services', 'app.directives','f
         //console.log("came in contact here")
         $state.go("map");
       }
+      $scope.gofab= function () {
+        //console.log("came in contact here")
+        $state.go("fab");
+      }
+      $scope.gofab1= function () {
+        //console.log("came in contact here")
+        $state.go("fab1");
+      }
+      $scope.gofab2= function () {
+        //console.log("came in contact here")
+        $state.go("fab2");
+      }
+      $scope.gofab3= function () {
+        //console.log("came in contact here")
+        $state.go("fab3");
+      }
+      $scope.gofab4= function () {
+        //console.log("came in contact here")
+        $state.go("fab4");
+      }
+      $scope.gofab5= function () {
+        //console.log("came in contact here")
+        $state.go("fab5");
+      }
+      $scope.gofab6= function () {
+        //console.log("came in contact here")
+        $state.go("fab6");
+      }
+      $scope.gofab7= function () {
+        //console.log("came in contact here")
+        $state.go("fab7");
+      }
+      $scope.gofab8= function () {
+        //console.log("came in contact here")
+        $state.go("fab8");
+      }
+      $scope.gofab9= function () {
+        //console.log("came in contact here")
+        $state.go("fab9");
+      }
+      $scope.gofab10= function () {
+        //console.log("came in contact here")
+        $state.go("fab10");
+      }
     })
